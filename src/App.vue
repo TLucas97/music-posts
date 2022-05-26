@@ -1,32 +1,78 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <Header />
     <router-view />
+    <Footer />
   </div>
 </template>
 
+<script>
+import Header from "./components/MyHeader.vue";
+import Footer from "./components/MyFooter.vue";
+
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#root,
+#__next {
+  isolation: isolate;
 }
 </style>
