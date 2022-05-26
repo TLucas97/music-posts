@@ -26,16 +26,19 @@
             class="d-flex justify-content-center align-items-center flex-column mt-2"
           >
             <div>
-              <img
-                src="../assets/john.png"
-                width="80"
-              />
+              <img src="../assets/john.png" width="80" />
             </div>
             <small>John Krasinsky</small>
             <div class="mt-3 text-center">
-              <p>Home</p>
-              <p>Posts</p>
-              <p>Perfil</p>
+              <router-link to="/">
+                <p>Home</p>
+              </router-link>
+              <router-link to="/posts">
+                <p>Posts</p>
+              </router-link>
+              <router-link to="/profile">
+                <p>Perfil</p>
+              </router-link>
               <p>Sair</p>
             </div>
           </div>

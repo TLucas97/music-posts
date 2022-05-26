@@ -33,6 +33,11 @@ export default {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
 html,
 body {
   height: 100%;
