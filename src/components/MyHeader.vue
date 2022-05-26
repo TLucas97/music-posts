@@ -27,7 +27,7 @@
           >
             <div>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1653581005~hmac=96bc9050f74547e924c580b2359dc8fd"
+                src="../assets/john.png"
                 width="80"
               />
             </div>
