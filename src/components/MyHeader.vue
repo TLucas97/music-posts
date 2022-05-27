@@ -51,7 +51,7 @@
 <style scoped>
 .header {
   width: 100%;
-  height: 50px;
+  height: 45px;
   background: teal;
   padding: 0.4em;
   display: flex;

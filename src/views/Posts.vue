@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style scoped>
+.home{
+  width: 100%;
+}
+
 .music-banner {
   background: url("https://www.hooksounds.com/assets/seo/illustration.svg");
   background-position: center;

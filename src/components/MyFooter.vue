@@ -15,5 +15,6 @@
   justify-content: center;
   color: white;
   font-weight: 100;
+  font-size: 0.6rem;
 }
 </style>
